@@ -2,7 +2,7 @@ import styled from "styled-components";
 import AnimatedPage from "./AnimatedPage";
 
 const Principal = styled.div`
-  height:calc(80vh - 3.5rem);
+  height:calc(80vh - 1.90rem);
   display:flex;
   justify-content:center;
   align-items:center;

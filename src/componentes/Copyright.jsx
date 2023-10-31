@@ -8,6 +8,8 @@ const ContFlex = styled.div`
 
 const Creado = styled.p`
   color:#fff;
+  margin-bottom:0;
+  font-size:0.75rem;
 `
 const Copyright = () => {
     return <ContFlex>

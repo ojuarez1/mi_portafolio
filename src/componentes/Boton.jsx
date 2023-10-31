@@ -1,5 +1,3 @@
-const Boton=()=>{
-   return <><button>E-commerce</button></>
-}
+const Boton = ({valor}) => <button>{valor}</button>
 
 export default Boton

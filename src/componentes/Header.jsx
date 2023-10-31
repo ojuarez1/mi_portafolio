@@ -22,19 +22,22 @@ const Nav = styled.nav`
     display:flex;
     align-items:center;
 `
+
 const Navega = styled(Link)`
     color:#ffffff;
     text-decoration:none;
     display:inline-block;
     margin-right:2.5rem;
-    &&:hover{
-        //color:#F1EEC5;
-    }
 `
+
+const LinkImg = styled(Link)`
+    display:inline-block;
+    margin-right:1rem;
+    border-radius:50%;
+`
+
 const Header = () => {
     return <Contain>
-        {/* <Img src="./img/ojf.png" alt="Logo" /> */}
-
         <Logo to="/"><h2>OJF</h2></Logo>
 
         <Nav>
@@ -44,6 +47,11 @@ const Header = () => {
             <Navega to="/formacion">Formacion</Navega>
             <Navega to="/proyectos">Proyectos</Navega>
             <Navega to="/contacto">Contacto</Navega>
+            <div >
+                <LinkImg to="https://github.com/ojuarez1" target="_blank"><img src="./img/github-original.svg" alt="Github" style={{ width: "1.2rem" }}/></LinkImg>
+                <LinkImg><img src="./img/bxl-linkedin.svg" alt="Linkedin" style={{ width: "1.2rem" }} /></LinkImg>
+                <LinkImg to="mailto:oscarjuarez923@gmail.com"><img src="./img/bxl-gmail.svg" alt="Email" style={{ width: "1.2rem" }}/></LinkImg>
+            </div>
         </Nav>
     </Contain>
 }
