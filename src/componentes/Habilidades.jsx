@@ -77,8 +77,7 @@ const Habilidades = () => {
               <InfiniteMove src="./img/react-original.svg" alt="react"/>  
             </ContImg>               
           </Contain>
-        </Articulo>
-    
+        </Articulo>    
         <Articulo>
           <Contain>
             <Hdos>Herramientas</Hdos>

@@ -5,8 +5,12 @@ const Contain = styled.div`
     display:flex;
     justify-content:space-around;
     height:20vh;
-    min-width:968px;
+    min-width:468px;
     background-color:#000;
+    @media (max-width:468px){
+        max-width:468px;
+        flex-wrap:wrap;
+    }
 `
 
 const Logo = styled(NavLink)`
@@ -16,11 +20,19 @@ const Logo = styled(NavLink)`
     align-items:center;
     font-weight:100;
     text-decoration:none;
+    @media (max-width:468px){
+        max-width:468px;
+        flex-wrap:wrap;
+    }
 `
 
 const Nav = styled.nav`
     display:flex;
     align-items:center;
+    @media (max-width:468px){
+        max-width:468px;
+        flex-wrap:wrap;
+    }
 `
 
 const Navega = styled(Link)`
@@ -38,7 +50,7 @@ const LinkImg = styled(Link)`
 
 const Header = () => {
     return <Contain>
-        <Logo to="/"><h2>OJF</h2></Logo>
+        <Logo to="/"><img src="./img/ojf.png" alt="logo" /></Logo>
 
         <Nav>
             <Navega to="/sobreMi">Sobre mi</Navega>

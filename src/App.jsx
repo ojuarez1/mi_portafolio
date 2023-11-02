@@ -10,6 +10,7 @@ import Habilidades from './componentes/Habilidades';
 import Hobbis from './componentes/Hobbis';
 import Formacion from './componentes/Formacion';
 import Proyectos from './componentes/Proyectos';
+import Formulario from './componentes/Formulario';
 
 const Contenido = styled.div`
   height:100vh;
@@ -27,7 +28,7 @@ function App() {
           <Route path='/hobbis' element={<Hobbis/>} />
           <Route path='/formacion' element={<Formacion/>} />
           <Route path='/proyectos' element={<Proyectos/>} />
-          <Route path='/contacto' element={"Contacto"} /> 
+          <Route path='/contacto' element={<Formulario/>} /> 
           <Route path='*' element={<Error404/>} />
         </Routes>
           <Copyright/>

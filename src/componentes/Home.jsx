@@ -11,6 +11,9 @@ const Principal = styled.div`
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
+  @media (max-width:468px){
+    flex-direction:column;
+  }
 `
 
 const Contain = styled.div`
@@ -22,11 +25,18 @@ const ContImg = styled.div`
   width:50vw;
   display:flex;
   justify-content:center;
+  @media (max-width:468px){
+    width:100vw;
+  }
 `
 
 const Div = styled.div`
   width:80%;
   overflow:hidden;
+  @media (max-width:468px){
+    width:100%;
+    
+  }
 `
 
 const Img = styled.img`
