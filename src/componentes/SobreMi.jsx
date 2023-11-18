@@ -54,7 +54,7 @@ const SobreMi = () => {
         <Contain>
           <Titulo>Sobre Mi</Titulo>
           <Nombre>Mi nombre es Oscar Arnulfo Juarez Fernandez, tengo 43 años de edad, vivo en El Salvador.</Nombre>
-          <Nombre>Y me apasiona la programacion, mi sueño es dedicarme a construir paginas web de mucha calidad</Nombre>
+          <Nombre>Y me apasiona la programacion, mi sueño es dedicarme a construir paginas web.</Nombre>
           <Nombre>Actualmente trabajo como Auxiliar Administrativo y busco oportunidad para adquirir experiencia como Programador Web en el area de Front-end</Nombre>
           <Nombre>Busco siempre trabajar en equipo apoyando a todos y transmitiendo mis conocimientos a los demas, me considero alguien dispuesto a alcanzar metas, a superar retos y tengo siempre el deseo de querer aprender cada dia mas.</Nombre>
         </Contain>
