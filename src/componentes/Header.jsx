@@ -49,7 +49,7 @@ const Header = () => {
             <Navega to="/contacto">Contacto</Navega>
             <div >
                 <LinkImg to="https://github.com/ojuarez1" target="_blank"><img src="./img/github-original.svg" alt="Github" style={{ width: "1.2rem" }}/></LinkImg>
-                <LinkImg><img src="./img/bxl-linkedin.svg" alt="Linkedin" style={{ width: "1.2rem" }} /></LinkImg>
+                <LinkImg to="https://www.linkedin.com/in/oscar-juarez-fernandez-4bb40a272/"><img src="./img/bxl-linkedin.svg" alt="Linkedin" style={{ width: "1.2rem" }} /></LinkImg>
                 <LinkImg to="mailto:oscarjuarez923@gmail.com"><img src="./img/bxl-gmail.svg" alt="Email" style={{ width: "1.2rem" }}/></LinkImg>
             </div>
         </Nav>
