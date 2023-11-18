@@ -8,6 +8,7 @@ const Principal = styled.div`
   align-items:center;
   flex-direction:column;
   background-color:#000;
+  min-width:968px;
 `
 
 const Titulo = styled.h1`
@@ -17,6 +18,9 @@ const Titulo = styled.h1`
 const Articulo = styled.article`
   width:50%;
   display:flex;
+  @media(max-width:468px){
+    width:75%;
+  }
 `
 
 const Contain = styled.div`
@@ -36,6 +40,7 @@ const Img = styled.img`
   &&:hover{
     transform: rotate(360deg);
   }
+  
 `
 
 const Text = styled.p`

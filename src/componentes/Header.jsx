@@ -1,16 +1,12 @@
-import { Link, NavLink } from "react-router-dom"
-import styled from "styled-components"
+import { Link, NavLink } from "react-router-dom";
+import styled from "styled-components";
 
 const Contain = styled.div`
     display:flex;
     justify-content:space-around;
     height:20vh;
-    min-width:468px;
+    min-width:968px;
     background-color:#000;
-    @media (max-width:468px){
-        max-width:468px;
-        flex-wrap:wrap;
-    }
 `
 
 const Logo = styled(NavLink)`
@@ -20,19 +16,11 @@ const Logo = styled(NavLink)`
     align-items:center;
     font-weight:100;
     text-decoration:none;
-    @media (max-width:468px){
-        max-width:468px;
-        flex-wrap:wrap;
-    }
 `
 
 const Nav = styled.nav`
     display:flex;
     align-items:center;
-    @media (max-width:468px){
-        max-width:468px;
-        flex-wrap:wrap;
-    }
 `
 
 const Navega = styled(Link)`

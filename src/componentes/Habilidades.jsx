@@ -8,6 +8,7 @@ const Principal = styled.div`
   align-items:center;
   flex-direction:column;
   background-color:#000;
+  min-width:968px;
 `
 
 const Titulo = styled.h1`
@@ -27,6 +28,9 @@ const Articulo = styled.article`
   box-sizing:border-box;
   &:nth-child(1){
     border-right:1px solid #fff;
+  }
+  @media(max-width:468px){
+    width:484px;
   }
 `
 

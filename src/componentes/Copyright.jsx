@@ -4,6 +4,7 @@ const ContFlex = styled.div`
   display:flex;
   justify-content:space-evenly;
   background-color:#000;
+  min-width:968px;
 `
 
 const Creado = styled.p`

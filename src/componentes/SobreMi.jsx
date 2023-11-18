@@ -7,6 +7,7 @@ const Principal = styled.div`
   justify-content:center;
   align-items:center;
   background-color:#000;
+  min-width:968px;
 `
 
 const Contain = styled.div`
@@ -23,6 +24,9 @@ const ContImg = styled.div`
   width:50vw;
   display:flex;
   justify-content:center;
+  @media(max-width:468px){
+    width:968px;
+  }
 `
 
 const Div = styled.div`

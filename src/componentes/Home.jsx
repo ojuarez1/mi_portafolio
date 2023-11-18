@@ -3,7 +3,7 @@ import AnimatedPage from "./AnimatedPage";
 
 
 const Principal = styled.div`
-  height:calc(80vh - 1.90rem);
+  height: calc(80vh - 1.90rem);
   display:flex;
   justify-content:center;
   align-items:center;
@@ -11,9 +11,7 @@ const Principal = styled.div`
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-  @media (max-width:468px){
-    flex-direction:column;
-  }
+  min-width:968px;
 `
 
 const Contain = styled.div`
@@ -25,18 +23,14 @@ const ContImg = styled.div`
   width:50vw;
   display:flex;
   justify-content:center;
-  @media (max-width:468px){
-    width:100vw;
+  @media(max-width:468px){
+    width:968px;
   }
 `
 
 const Div = styled.div`
   width:80%;
   overflow:hidden;
-  @media (max-width:468px){
-    width:100%;
-    
-  }
 `
 
 const Img = styled.img`

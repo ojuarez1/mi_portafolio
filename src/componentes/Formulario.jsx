@@ -9,6 +9,7 @@ const Principal = styled.div`
   align-items:center;
   flex-direction:column;
   background-color:#000;
+  min-width:968px;
 `
 
 const Titulo = styled.h1`
