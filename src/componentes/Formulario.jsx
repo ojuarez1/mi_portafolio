@@ -27,7 +27,7 @@ const Campo = styled.fieldset`
 
 const Formulario=()=>{
     return <Principal>
-        <form action="">
+        <form method="POST" action="https://formsubmit.co/oscarjuarez923@gmail.com" onSubmit={(e)=>e.preventDefault}>
             <Titulo>Contacto</Titulo>
             <legend>¿Quieres contactarme? <br /> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</legend>
             <Campo>
@@ -36,7 +36,7 @@ const Formulario=()=>{
                 <TextBox name="Asunto" alto="1.5rem" margeni="1rem" placeholder="Digite el Asunto" />
                 <Campo>
                     <label htmlFor="" >Mensaje</label>
-                    <textarea rows={5} cols={40} placeholder="Digite su mensaje" />
+                    <textarea name="mensaje" rows={5} cols={40} placeholder="Digite su mensaje" />
                 </Campo>
             </Campo>
             <Boton valor="Enviar" />
