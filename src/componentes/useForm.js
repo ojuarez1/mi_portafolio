@@ -5,7 +5,7 @@ export const useForm = (initialForm, validateForm) => {
     const [error, setError] = useState({})
     const [loading, setLoading] = useState(false)
     const [response, setResponse] = useState(null)
-    
+    console.log(setLoading, setResponse)
     const handleChange = (e) => {
         console.log(e.target)
         const { name, value } = e.target;
@@ -20,7 +20,7 @@ export const useForm = (initialForm, validateForm) => {
         setError(validateForm(form));
     }
     
-    const handleSubmit = () => {console.log(setLoading, setResponse)}
+    const handleSubmit = () => {}
     
     return { form, error, loading, response, handleChange, handleBlur, handleSubmit}
 }
