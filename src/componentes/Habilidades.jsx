@@ -78,7 +78,9 @@ const Habilidades = () => {
               <InfiniteMove src="./img/css3-original.svg" alt="css3" />
               <InfiniteMove src="./img/javascript-original.svg" alt="javascript" />
               <InfiniteMove src="./img/markdown-original.svg" alt="markdown" style={{ backgroundColor:"#fff"}} />
-              <InfiniteMove src="./img/react-original.svg" alt="react"/>  
+              <InfiniteMove src="./img/react-original.svg" alt="react" />
+              <InfiniteMove src="./img/mysql-original.svg" alt="mysql" />
+              <InfiniteMove src="./img/python-original.svg" alt="python"/>
             </ContImg>               
           </Contain>
         </Articulo>    
@@ -90,7 +92,6 @@ const Habilidades = () => {
               <InfiniteMove src="./img/git-original.svg" alt="git" />
               <InfiniteMove src="./img/bootstrap-original.svg" alt="bootstrap" />
               <InfiniteMove src="./img/github-original.svg" alt="github" />  
-              <InfiniteMove src="./img/mysql-original.svg" alt="mysql"/>
             </ContImg>
           </Contain>
         </Articulo>
