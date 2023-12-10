@@ -69,12 +69,11 @@ const styles = {
  }
 
 const Formulario = () => {
-    const { form, error, loading, response, handleChange, handleBlur, handleSubmit } = useForm(initialForm, validationsForm)
-    console.log(loading, response)
+    const { form, error, handleChange, handleBlur } = useForm(initialForm, validationsForm)
+
     return <Principal>
         <form method="POST" action="https://formsubmit.co/oscarjuarez923@gmail.com" onSubmit={(e) => {
             e.preventDefault
-            handleSubmit
         }}>
             <Titulo>Contacto</Titulo>
             <legend>¿Quiere contactarme? <br /> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</legend>
